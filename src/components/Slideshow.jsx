@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 
 const images = [
-  '/images/FrenchmansCove.jpg',
-  '/images/Jerk1.jpg',
-  '/images/MonkeyIsland.jpg',
+  'public/images/FrenchmansCove.jpg',
+  'public/images/Jerk1.jpg',
+  'public/images/MonkeyIsland.jpg',
 ]
 
 export default function Slideshow() {

@@ -1,22 +1,42 @@
 export default [
   {
-    day: 'Day 1',
-    title: 'Arrival & Beach Day',
-    description: `Arrive in Portland, check-in, then relax at Frenchman's Cove beach.`
+    day: 'June 18',
+    location: 'Port Antonio',
+    excursion: 'Travel Day (Kingston Airport to PORTLAND BNB)',
+    breakfast: 'N/A',
+    lunch: 'Tastee Pattie & Cocoa Bread',
+    dinner: 'Jerk Chicken, Jerk Pork, Festival, Mac n Cheese, Festival, Rice and Peas, Plantains',
   },
   {
-    day: 'Day 2',
-    title: 'Blue Lagoon & Winnifred Beach',
-    description: 'Swim at Blue Lagoon in the morning, lunch at Winnifred Beach, and enjoy a jerk chicken dinner.'
+    day: 'June 19',
+    location: 'Port Antonio',
+    excursion: 'Blue Lagoon + Monkey Island (Free - Storm + Lucas Tour Guide 4-6hrs)',
+    breakfast: 'Cornmeal porridge, Banana Porridge, Johnny cakes, Eggs, Bacon, Fresh fruit, Blue Mountain Coffee, Fresh Juice',
+    lunch: 'Fried Chicken and Fries',
+    dinner: 'Jerk Chicken, Lobster, Jerk Shrimp, Fish, Festival, Mac n Cheese, Festival, Rice and Peas, Plantains',
   },
   {
-    day: 'Day 3',
-    title: 'Reach Falls & Boston Bay',
-    description: 'Morning visit to Reach Falls, then surfing or chilling at Boston Bay beach. Try the famous Boston Jerk!'
+    day: 'June 20',
+    location: 'Port Antonio',
+    excursion: 'TBD',
+    breakfast: 'Scrambled eggs & bacon, Pancakes, Toast, Fresh fruit, Smoothie',
+    lunch: 'Burger, Fries, Patties, Coco bread',
+    dinner: 'Jerk Alfredo w/ Chicken, Jerk Alfredo w/ Shrimp, Festivals, Jamaican Sodas',
   },
   {
-    day: 'Day 4',
-    title: 'Port Antonio & Return',
-    description: 'Explore Port Antonio market, brunch at a local café, and prepare for departure.'
-  }
-]
+    day: 'June 21',
+    location: 'Port Antonio',
+    excursion: "Frenchmans Cove ($15 Beach Admission)",
+    breakfast: 'French toast, scrambled eggs, french toast, johnny cakes, plantain, Fresh Juice, Fresh Fruits',
+    lunch: "Boston Bay's Boston Jerk Center",
+    dinner: 'Brown Stew Chicken, curry goat, curry shrimp, rice and peas, festival',
+  },
+  {
+    day: 'June 22',
+    location: 'Port Antonio to Ocho Rios',
+    excursion: 'Travel Day (Portland BnB to Ocho Rios BnB)',
+    breakfast: 'Waffles, Sausage & hash browns, eggs, granola, yogurt, Fresh fruit, Coffee',
+    lunch: 'Juici Patties',
+    dinner: 'Jerk Chicken, Jerk Pork, Jerk Shrimp, Festival, Rice and Peas, Hardo Bread, Plantains',
+  },
+];

@@ -1,4 +1,4 @@
-import ochoRiosItinerary from '../data/ochoRiosItinerary'
+import ochoRiosItinerary from '../data/ochoRiosItinerary';
 
 export default function OchoRios() {
   return (
@@ -21,13 +21,18 @@ export default function OchoRios() {
           margin: '1.5rem auto',
           padding: '1.5rem 2rem',
           borderRadius: '1.1rem',
-          maxWidth: '600px',
+          maxWidth: '700px',
           boxShadow: '0 4px 18px #0005'
         }}>
-          <h2 style={{margin: 0, color: '#00e676', fontWeight: 600}}>{item.day}: {item.title}</h2>
-          <p style={{marginTop: '0.7rem', fontSize: '1.13rem', lineHeight: 1.75}}>{item.description}</p>
+          <h2 style={{margin: 0, color: '#00e676', fontWeight: 600}}>{item.day} - {item.location}</h2>
+          <p style={{fontWeight: 500, marginBottom: '0.7rem'}}>Excursion: <span style={{fontWeight: 400}}>{item.excursion}</span></p>
+          <ul style={{listStyle: 'none', paddingLeft: 0, lineHeight: 1.8, margin: 0}}>
+            <li><strong>Breakfast:</strong> {item.breakfast}</li>
+            <li><strong>Lunch:</strong> {item.lunch}</li>
+            <li><strong>Dinner:</strong> {item.dinner}</li>
+          </ul>
         </div>
       ))}
     </div>
-  )
+  );
 }

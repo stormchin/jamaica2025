@@ -1,22 +1,26 @@
 export default [
   {
-    day: 'Day 1',
-    title: 'Arrival in Ocho Rios',
-    description: `Check in, explore local shops, and have dinner at Ocean's 11.`
+    day: 'June 23',
+    location: 'Ocho Rios',
+    excursion: 'Scuba (TBD)',
+    breakfast: 'Pancakes, Scrambled eggs, bacon, Toast, Fresh fruit, Smoothie',
+    lunch: 'Burgers, Fries, Jamaican Sodas',
+    dinner: 'Wings, Fries, Rice and Peas, Hardo Bread/ Festival',
   },
   {
-    day: 'Day 2',
-    title: 'Dunn\'s River Falls & Beach',
-    description: 'Climb the iconic Dunn\'s River Falls, picnic lunch, then beach relaxation. Dinner at Miss T\'s Kitchen.'
+    day: 'June 24',
+    location: 'Ocho Rios',
+    excursion: "Dunn's River Falls & Park Adventure ($25)",
+    breakfast: 'Omlets, Smoothies, Yogurt, Granola, fresh fruit',
+    lunch: 'Scotchies',
+    dinner: 'Jerk Alfredo, Festivals, Jamaican Sodas',
   },
   {
-    day: 'Day 3',
-    title: 'Mystic Mountain & Craft Market',
-    description: 'Zipline or bobsled at Mystic Mountain, then shop for souvenirs at the Craft Market.'
+    day: 'June 25',
+    location: 'Ocho Rios to MBJ',
+    excursion: 'Travel Day (Ocho Rios to MbJ)',
+    breakfast: 'Pancakes, Eggs, Fresh fruit, Coffee or smoothie',
+    lunch: 'Airport café or grab-and-go',
+    dinner: 'N/A',
   },
-  {
-    day: 'Day 4',
-    title: 'Fern Gully & Departure',
-    description: 'Morning drive through Fern Gully, brunch, and departure.'
-  }
-]
+];

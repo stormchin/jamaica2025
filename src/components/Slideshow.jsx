@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react'
 
 const images = [
-  '/images/FrenchmansCove.jpg',
-  '/images/Jerk1.jpg',
+  '/images/Beach2.jpg',
+  '/images/Beach1.jpg',
+  '/images/Falls1.jpg',
+  '/images/MonkeyIsland.jpg',
   '/images/MonkeyIsland.jpg',
 ]
 

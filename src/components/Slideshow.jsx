@@ -43,7 +43,7 @@ export default function Slideshow() {
       <div style={{
         position: 'absolute',
         top: 0, left: 0, width: '100%', height: '100%',
-        background: 'linear-gradient(135deg,rgba(12,12,16,0.7) 40%,rgba(0,230,118,0.05) 100%)'
+        background: 'linear-gradient(135deg,rgba(12,12,16,0.3) 40%,rgba(0,230,118,0.05) 100%)'
       }} />
       <div style={{
         position: 'absolute',

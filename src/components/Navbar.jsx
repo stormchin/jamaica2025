@@ -21,7 +21,7 @@ export default function Navbar() {
         fontSize: '1.6rem',
         textDecoration: 'none',
         letterSpacing: '0.1em'
-      }}>Jamaica Trip</Link>
+      }}>Storm + Lucas - 2025 Jamaica Trip</Link>
       <div>
         <Link to="/portland" style={{
           color: location.pathname === '/portland' ? '#00e676' : '#fff',

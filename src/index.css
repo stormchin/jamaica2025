@@ -1,10 +1,17 @@
 body {
   margin: 0;
   padding: 0;
-  background: #15181b;
-  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
-  color: #eee;
+  background: #263238; /* Softer dark background */
+  font-family: 'Inter', sans-serif; /* Updated body font */
+  color: #E0E0E0; /* Default text color */
   min-height: 100vh;
+}
+
+/* Define CSS Variables for accent colors */
+:root {
+  --color-blue: #90CAF9;
+  --color-green: #A5D6A7;
+  --color-gold: #FFD54F;
 }
 * {
   box-sizing: border-box;
@@ -15,15 +22,5 @@ a {
   text-decoration: none;
   transition: color 0.2s;
 }
-a:hover {
-  color: #00e676;
-}
-
-::-webkit-scrollbar {
-  width: 8px;
-  background: #222;
-}
-::-webkit-scrollbar-thumb {
-  background: #00e676;
-  border-radius: 4px;
-}
+/* Remove old hover color, will be redefined based on context */
+/* Remove old scrollbar styling, will be redefined based on new theme */
